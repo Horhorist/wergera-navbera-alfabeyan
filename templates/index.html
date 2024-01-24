@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ji bo kurdî veguherîner alfabeya latînî û erebî</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <p>werger</p>
+        </div>
+        <div class="nav-links">
+            <a href="https://github.com/horhorist" target="_blank"><img src="https://github.com/images/modules/search/mona-love.png" alt=""></a>
+            <a href="https://tirsik.net/niviskar.php?trskvn=1394301618&m=kiye" target="_blank"><img src="https://tirsik.net/wene/logo1.png" alt=""></a>
+        </div>
+    </div>
+
+    <form action="/werger" method="post">
+        <label for="hilbijartina_alfabeye">Dixwazin kîjanê veguherînin ya din?</label>
+        <select name="hilbijartina_alfabeye" id="hilbijartina_alfabeye">
+            <option value="1">Ji erebî bo Latînî</option>
+            <option value="2">Ji latinî bo erebî</option>
+        </select>
+        <br>
+        <label for="nivis">Ji kerema xwe nivîsa ku hûn dixwazin wergerînin binivîsin:</label>
+        <input type="text" name="nivis" id="nivis" required>
+        <br>
+        <input type="submit" value="wergerîne">
+    </form>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+    
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</body>
+</html>
